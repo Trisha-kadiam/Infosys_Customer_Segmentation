@@ -57,6 +57,4 @@ Data cleaning is a crucial step in preparing datasets for analysis. It involves 
    - **Delivery Date**: Replaced null values with values from the `Update Date` column.
    - **Shipping Date**: Replaced null values with values from the `Update Date` column.
    - **Transaction Date**: Replaced null values with values from the `Update Date` column.
-4. **Data Analysis**: 
-   - Analyze transaction patterns to identify trends and anomalies.
-   - Clean any inconsistencies in transaction timestamps and amounts.
+
