@@ -1,5 +1,5 @@
 # Infosys_Customer_Segmentation
-#Customer Dataset
-#Products Dataset
-#Regions Dataset
-#Transactions Dataset
+Customer Dataset
+Products Dataset
+Regions Dataset
+Transactions Dataset
