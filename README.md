@@ -3,7 +3,9 @@
 ## Task 1: Data Cleaning Process
 Data cleaning is a crucial step in preparing datasets for analysis. It involves identifying and correcting errors or inconsistencies in the data to ensure its quality and reliability.
 
-### Customer Dataset
+<details>
+<summary><strong>Customer Dataset</strong></summary>
+
 1. **Check for Duplicated Values**: Verified for duplicated `CustomerID` entries.
 2. **Remove Redundant Columns**: Found the `Full Name` and deleted the `First Name` and `Last Name` columns.
 3. **Handle Null Values**:
@@ -24,7 +26,11 @@ Data cleaning is a crucial step in preparing datasets for analysis. It involves 
 4. **Remove Duplicated Emails**: Eliminated duplicate email entries to ensure unique customer records.
 5. **Data Type Verification**: Checked all data types to ensure they match the expected formats. Changed any mismatched data types accordingly.
 
-### Products Dataset
+</details>
+
+<details>
+<summary><strong>Products Dataset</strong></summary>
+
 1. **Data Extraction**: Retrieve product information from the inventory management system.
 2. **Remove Unnecessary Columns**: 
    - Removed the `Dimensions`, `Weight`, and `Color` columns as they were not needed for analysis.
@@ -37,11 +43,19 @@ Data cleaning is a crucial step in preparing datasets for analysis. It involves 
    - **Release Date**: Replaced null values with the values from the `Update Date` column.
 4. **Data Type Verification**: Checked all data types to ensure they match the expected formats and made necessary adjustments.
 
-### Regions Dataset
+</details>
+
+<details>
+<summary><strong>Regions Dataset</strong></summary>
+
 1. **Remove Unnecessary Columns**: Removed the `Total Customers` column as it was not needed for analysis.
 2. **Data Type Verification**: Verified the data types of relevant fields to ensure they match the expected formats.
 
-### Transactions Dataset
+</details>
+
+<details>
+<summary><strong>Transactions Dataset</strong></summary>
+
 1. **Transaction Data Import**: Import transaction records from the sales database.
 2. **Remove Unnecessary Columns**: Removed the `OrderNotes` column as it was not needed for analysis.
 3. **Handle Null Values**:
@@ -58,3 +72,4 @@ Data cleaning is a crucial step in preparing datasets for analysis. It involves 
    - **Shipping Date**: Replaced null values with values from the `Update Date` column.
    - **Transaction Date**: Replaced null values with values from the `Update Date` column.
 
+</details>
