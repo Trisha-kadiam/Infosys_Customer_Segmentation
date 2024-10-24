@@ -40,7 +40,7 @@ Data cleaning is a crucial step in preparing datasets for analysis. It involves 
    - **Product Name**: Removed any blank rows.
    - **Category**: Replaced null values with the mode.
    - **Rating, Price, and Discounted Price**: Replaced null values with their average values.
-   - **Release Date**: Replaced null values with the values from the `Update Date` column.
+   - **Release Date**: Replaced null values with the values from the `Updated Date` column.
 4. **Data Type Verification**: Checked all data types to ensure they match the expected formats and made necessary adjustments.
 
 </details>
